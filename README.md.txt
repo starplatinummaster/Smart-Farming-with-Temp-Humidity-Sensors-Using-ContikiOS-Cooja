@@ -1,0 +1,10 @@
+Optimising Crop sowing and identifying uncultivable region using temperature, humidity and light sensors.
+
+
+Motivation-
+This idea explores the simulation of Wireless Sensor Nodes in agricultural fields to optimize crop cultivation and evaluate arid or uncultivable areas using ContikiOS and the Cooja simulator. Virtual nodes are strategically placed across the field to monitor parameters such as temperature and humidity. The data collected over time is transmitted via the Internet using the 6LoWPAN protocol (IPv6 over Low power Wireless Personal Area Networks), enabling real-time communication and remote monitoring. The system is designed to notify farmers through a web server, allowing them to monitor their crops remotely. This approach not only reduces lab or costs but also enhances flexibility and provides more accurate measurements of field conditions compared to traditional human predictions. Furthermore, the integration of machine learning algorithms can analyse the sensor data to predict future trends and recommend precise irrigation schedules, thereby conserving water resources and improving crop yields. By leveraging IoT and sensor technology, this project offers a cost-effective and reliable solution for smart crop farming, ensuring optimal growing conditions and improving overall agricultural productivity. This method surpasses conventional weather forecasting and human analysis, providing farmers with precise and timely information for better decision-making in crop management. The ultimate goal is to create a sustainable farming ecosystem that adapts to changing environmental conditions and supports farmers in maximizing their agricultural output with minimal environmental impact
+
+Here we have used 2 kinds of motes:
+1. The yellow motes represent sky websense motes which are our sensors on a given field 2-10
+2. We have a mobile border router mote which reads data from the sensors around it and relays the message on the browser which can be extended as an sms mote-1
+3. In order to make the router mobile we have used manhattan model for to scan across each and every sensors.
